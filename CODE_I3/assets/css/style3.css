@@ -1,0 +1,115 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+a{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  color: aliceblue;
+}
+
+.btn {
+  display: inline-block;
+  background-color: rgb(216, 43, 216);
+  color: var(--color-black);
+  padding: 1rem 2rem;
+  border: 1px solid transparent;
+  font-weight: 500;
+  transition: var(--transition);
+  margin-left: 2rem;
+}
+
+.btn:hover {
+  background: transparent;
+  color: rgb(216, 43, 216);
+  border-color: rgb(216, 43, 216);
+}
+
+.btn-primary {
+
+  background: var(--color-danger);
+  color: var(--color-white);
+}
+
+nav {
+  margin-top: 1rem;
+  background-color: #30395a;
+  width: 95vw;
+  height: 4rem;
+  position: fixed;
+  top: 0;
+  z-index: 11;
+  border: 3px solid #f2f2f2;
+  border-radius: 2rem;
+  margin-left: 1rem;
+}
+
+.nav_container {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 4rem;
+  margin-left: 2rem;
+
+}
+
+nav button {
+  display: none;
+}
+
+.menu_nav {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.menu_nav a {
+  font-size: 0.9rem;
+  transition: var(--transition);
+}
+
+.menu_nav a:hover {
+  color: rgb(43, 43, 43);
+}
+
+
+
+.option{
+  margin-top: 4rem;
+}
+
+body{
+  background: #30395a;
+}
+
+.box{
+  height: 50vh;
+  width: 30vw;
+  margin-right: 4rem;
+  background: #7764fc;
+  border-radius: 1rem;
+  padding: 3rem 1rem;
+  box-shadow:-0.7rem 2rem 1rem 1rem rgba(0, 0, 0, 0.47);
+  margin-top: 5rem;
+  margin-left: 6rem;
+}
+
+h1{
+  padding: 5rem 0rem 2rem 5rem;
+}
+
+.tabelsiswa{
+  margin-top: 8rem;
+}
